@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: darkslategray;
+}
+.addButton {
+  color: white;
+  background-color: green;
+}
+.deleteButton {
+  background-color: red;
+  color: white;
+  margin-left: 20px;
+}
+.todoUl {
+  padding: 0;
+  list-style: none;
+}
+.todoLi {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid darkslateblue;
+  color: darkslategray;
+  padding: 15px;
+  margin: 10px;
+}
